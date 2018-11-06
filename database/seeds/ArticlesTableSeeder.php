@@ -19,6 +19,7 @@ class ArticlesTableSeeder extends Seeder
             DB::table('articles')->insert([
                 'title' => $faker->sentence,
                 'content' => implode('',$faker->sentences(4))
+                // thu github
             ]);
         }
     }
